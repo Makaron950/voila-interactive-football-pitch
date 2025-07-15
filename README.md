@@ -2,6 +2,7 @@
 [Jupyter voila](https://blog.jupyter.org/and-voil%C3%A0-f6a2c08a4a93) allows to serve Jupyter notebooks, and especially ipywidgets, as standalone applications.
 This repository contains an example notebook which uses `qgrid` and `bqplot` to create a simple interactive football pitch.
 You can test it live in Binder or run it locally.  
+It now also includes a volleyball court example in `Interactive-Volleyball-Court.ipynb`.
 
 The deployed notebook can be found here: [Notebook on Heroku](https://voila-football-pitch-example.herokuapp.com/)  
 (Be patient, it might need some time to spin up the dyno on Heroku.)
@@ -31,6 +32,7 @@ or run the notebook by
 ```
 voila Interactive-Football-Pitch.ipynb
 ```
+voila Interactive-Volleyball-Court.ipynb
 
 ## Deployment on Heroku
 You can easily deploy the notebook to Heroku following these steps: 
