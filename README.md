@@ -45,3 +45,7 @@ git push heroku master
 
 
 
+
+## Using ipyaggrid
+When experimenting with `ipyaggrid`, make sure to specify your column configuration using the `column_defs` argument of `Grid`. Using `column_definitions` will raise a `TypeError`.
+See `aggrid_fixed_example.py` for a minimal working snippet.
